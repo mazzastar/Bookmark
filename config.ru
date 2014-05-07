@@ -1,3 +1,5 @@
 require './bookmark'
 
-run Sinatra::Application
+#run Sinatra::Application
+
+run Bookmark

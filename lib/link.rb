@@ -1,10 +1,10 @@
-require 'DataMapper'
+# require 'data_mapper'
 
 class Link
 
-	include DataMapper::Resouce
+	include DataMapper::Resource
 
 	property :id, Serial
 	property :title, String
-	property :url String
+	property :url, String
 end
